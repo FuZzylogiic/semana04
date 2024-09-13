@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="miClase"> Los tres tristes tigres tragan trigo</p>
+    <p class="miClase">Feliz dia del programador! 12 de setiembre</p>
+    <div class="cajita">
+        <p>Este es un DIV con clase "cajita"</p>
+    </div>
+    <script>
+        let elementos=document.getElementsByClassName("miClase");
+        for (let i=0; i<elementos.length;i++){
+            elementos[i].style.color="green";
+        }
+        let caja1=document.getElementsByClassName("cajita");
+        for(let i=0; i<caja1.length; i++){
+        caja1[i].style.border="2px solid blue";
+        caja1[i].style.textAligm="center";
+        caja1[i].style.fontFamily="courier";
+        caja1[i].style.backgroundColor="yellow";
+        caja1[i].style.width="50%";
+        caja1[i].style.margin="10px"
+        }
+    </script>
+    
+</body>
+</html>

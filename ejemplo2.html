@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="cajita">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis odio 
+        fuga minus, aperiam enim quia nihil vel sint nobis dolorum harum 
+        reprehenderit eligendi veniam impedit perspiciatis. Magnam iste a dolore?
+    </div>
+    
+    <!---Aplicar los estilos al DIV Cajita desde JavaScript
+    1.-texto de color verde y la fuente Verdana
+    2.-aplicar al texto "perspiciatis tempore" cursiva y negrita
+    3.-aplicar al texto "Rem sint soluta" subrayado y resaltado--->
+    <script>
+        let elemento=document.getElementById("cajita");
+        elemento.style.color="green";
+        elemento.style.fontFamily="Verdana";
+        elemento.style.fontWeight="bold"
+        elemento.style.fontStyle="Italic"
+        elemento.style.textDecoration="underline";
+        elemento.style.backgroundColor="Yellow"
+    </script>
+</body>
+</html>
